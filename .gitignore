@@ -1,0 +1,56 @@
+pretrained_models
+.DS_Store
+# output dir
+/data
+/venv
+/datasets
+/VOC2012
+/pyopengl
+/detectron2
+*.so.*
+*.tar.gz
+*.egg-info*
+/output
+/output*
+instant_test_output
+inference_test_output
+mesa_18.3.3-0.deb
+mesa_18.3.3-0.deb.1
+nohup.out
+*.ttf
+*.jpg
+*.png
+*.txt
+
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+detectron2.egg-info/
+build/
+dist/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+
+# VSCode editor settings
+.vscode
+
+# project dirs
+/models
